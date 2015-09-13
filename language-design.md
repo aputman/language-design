@@ -17,7 +17,9 @@ For each quote, describe what it was about the quote that led you pick it.
 
 **Response**
 
-
+Quote 1: "The broad computer science academic community has not paid a tremendous amount of attention to programming language usability" [Pavlus, 2012].
+Quote 2: "Public APIs, like diamonds, are forever" [Bloch, 2006].
+Quote 3: "If the design of the Java programming language as it is now had been put forth three years ago, it would have failed — of that I am sure" [Steele, 1998].
 
 ---
 
