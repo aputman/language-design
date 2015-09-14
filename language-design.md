@@ -19,11 +19,26 @@ For each quote, describe what it was about the quote that led you pick it.
 
 Quote 1: "Why shouldn’t those 'interfaces' be as humanely designed as the ones we tap and swipe?" [Pavlus, 2012].
 
-Here Pavlus asks why programming languages' interfaces are not as "humanely designed" as software's graphical interfaces are. This quote stood out to us because Pavlus is trying to make a point, but actually ends up asking a question that is very easy to answer! One answer is that in general, software (programming languages included) is designed towards its users. The software Pavlus is referring to is probably targeted at a much broader audience, so it needs to be easier. Also, we take issue with Pavlus implying that programming is comparable to tapping and swiping. Is Pavlus claiming that programming should be as easy as Angry Birds? I doubt that would be a productive language.
+Here Pavlus asks why programming languages' interfaces are not as "humanely
+designed" as software's graphical interfaces are. This quote stood out to us
+because Pavlus is trying to make a point, but actually ends up asking a
+question that is very easy to answer! One answer is that in general, software
+(programming languages included) is designed towards its users. The software
+Pavlus is referring to is probably targeted at a much broader audience, so it
+needs to be easier. Also, we take issue with Pavlus implying that programming
+is comparable to tapping and swiping. Is Pavlus claiming that programming
+should be as easy as Angry Birds? I doubt that would be a productive language.
 
 Quote 2: "Public APIs, like diamonds, are forever" [Bloch, 2006].
 
-This is not a feeling that we are used to. I (Ben) have never written anything like this, anything that would be public-facing and would cause an outcry if changed. It is interesting to think how choices made at the outset could affect your language fifteen years later, possibly. In fact, every future time you change something, you'd have to ensure backwards compatibility. It really emphasizes how thoughtful one needs to be in designing a language or an API. It is in general much better to wait until you are ready than to send out a rushed product.
+This is not a feeling that we are used to. I (Ben) have never written anything
+like this, anything that would be public-facing and would cause an outcry if
+changed. It is interesting to think how choices made at the outset could affect
+your language fifteen years later, possibly. In fact, every future time you
+change something, you'd have to ensure backwards compatibility. It really
+emphasizes how thoughtful one needs to be in designing a language or an API. It
+is in general much better to wait until you are ready than to send out a rushed
+product.
 
 Quote 3: "If the design of the Java programming language as it is now had been put forth three years ago, it would have failed — of that I am sure" [Steele, 1998].
 
@@ -42,9 +57,31 @@ How do the themes of _Growing a Language_ relate to the lab we did this week?
 
 **Response**
 
-Steele states his main theme on page 5: "I should not design a small language, and I should not design a large one. I need to design a language that can grow. I need to plan ways in which it might grow — but I need, too, to leave some choices so that other persons can make those choices at a later time." His point is that programming languages should not try to implement everything, but rather should allow the users to implement anything. He goes on to say that languages can and should expand, but that this rate must be controlled. As an example, he claims that Java in its state three years after its creation would never have been accepted as a programming language; it had to have those three intervening years to grow.
+Steele states his main theme on page 5: "I should not design a small language,
+ and I should not design a large one. I need to design a language that can 
+grow. I need to plan ways in which it might grow — but I need, too, to leave
+ some choices so that other persons can make those choices at a later time."
+ His point is that programming languages should not try to implement
+ everything, but rather should allow the users to implement anything. He goes
+ on to say that languages can and should expand, but that this rate must be
+ controlled. As an example, he claims that Java in its state three years after
+ its creation would never have been accepted as a programming language; it had
+ to have those three intervening years to grow.
 
-This theme plays a part in our lab from last week. Our goal in the lab was to create an extension for Python that would allow users to easily manipulate sounds. There are two things to note here. One, Python does not already have what we are looking for (there are some libraries out there that do this, but they were not part of Python's original design). Two, we were able to with little effort implement the desired functionality in Python. This fits nicely into Steele's description of the size of a language: Python was not too big, because its original specification did not contain this; and Python was not too small, because it was rather easy to implement the desired functions with basic Python functionality. Here we must say that Steele does not say that languages have to remain small. Python has grown to include libraries that already do what we implemented, but this does not contradict Steele because Steele expects languages to grow, just not for all that growth to be part of the original design.
+This theme plays a part in our lab from last week. Our goal in the lab was to
+create an extension for Python that would allow users to easily manipulate
+sounds. There are two things to note here. One, Python does not already have
+what we are looking for (there are some libraries out there that do this, but
+they were not part of Python's original design). Two, we were able to with
+little effort implement the desired functionality in Python. This fits nicely
+into Steele's description of the size of a language: Python was not too big,
+because its original specification did not contain this; and Python was not too
+small, because it was rather easy to implement the desired functions with basic
+Python functionality. Here we must say that Steele does not say that languages
+have to remain small. Python has grown to include libraries that already do
+what we implemented, but this does not contradict Steele because Steele
+expects languages to grow, just not for all that growth to be part of the
+original design.
 
 ---
 
@@ -92,13 +129,47 @@ the commenters?
 
 **Response**
 
-Pavlus is arguing that programming languages should be designed to be easier for the average person to understand and learn. While we agree with this general argument of the article, the actual specifics Pavlus uses to bolster his claim are not convincing. The commenters point out that Pavlus is emphasizing the difficulty of learning a language for those new to the language, but they argue that a programming language should be designed more with its users in mind, in that ease of use should be the concern, not ease of learning.
+Pavlus is arguing that programming languages should be designed to be easier
+for the average person to understand and learn. While we agree with this
+general argument of the article, the actual specifics Pavlus uses to bolster
+his claim are not convincing. The commenters point out that Pavlus is
+emphasizing the difficulty of learning a language for those new to the
+language, but they argue that a programming language should be designed more
+with its users in mind, in that ease of use should be the concern, not ease
+of learning.
 
-We mostly agree with the commenters. The language Pavlus seems to be after is a language for teaching programming, not one for actually programming. The reason that his "hieroglyphic" programming languages stick around is that they are useful. The commenters are right that there is a trade-off between a language being readable by the general public and how efficient and powerful a language is. We resent Pavlus for implying that such a trade-off need not be there, and that contributors to programming language design don't care enough to make their languages usable. Does he think that nobody has thought of this before?
+We mostly agree with the commenters. The language Pavlus seems to be after is a
+language for teaching programming, not one for actually programming. The reason
+that his "hieroglyphic" programming languages stick around is that they are
+useful. The commenters are right that there is a trade-off between a language
+being readable by the general public and how efficient and powerful a language
+is. We resent Pavlus for implying that such a trade-off need not be there, and
+that contributors to programming language design don't care enough to make their
+languages usable. Does he think that nobody has thought of this before?
 
-However, we do not totally disagree with Pavlus. We actually agree with his general arguments, just not with how he defends them. We believe that it would be possible for languages to be more accessible to the general public. For example, Python has had great success with being a language designed with a guiding principle of "Readability counts," as well as  "Beautiful is better than ugly" ([PEP 20 -- The Zen of Python][1]). It is not too hard to imagine a language that goes a bit farther than Python while still being very powerful and  usable.
+However, we do not totally disagree with Pavlus. We actually agree with his
+general arguments, just not with how he defends them. We believe that it would
+be possible for languages to be more accessible to the general public. For
+example, Python has had great success with being a language designed with a
+guiding principle of "Readability counts," as well as  "Beautiful is better 
+than ugly" ([PEP 20 -- The Zen of Python][1]). It is not too hard to imagine a
+language that goes a bit farther than Python while still being very powerful
+and usable.
 
-We also note that both Pavlus and the commenters are focusing too heavily on one set of users. Pavlus seems only to care about having as many people as possible understanding a program. This to us seems silly, it is a career for a reason: you wouldn't expect the whole public to easily become good lawyers. Maybe at some point in the future programming will become more commonplace, but we are not there yet. Likewise, the commenters are fully rejecting the idea that more people could learn programming, and that that would be a good thing. This is too narrow-minded; of course programming languages should be understandable. The question is how understandable they should be, but the commenters don't even seem interested in that discussion. We would guess that part of why they have these blinders on is because they are professionals, they know how their languages work, and they don't need anything to change for them. But we believe it is very possible that a change for more readability could happen without negatively affecting the programmers.
+We also note that both Pavlus and the commenters are focusing too heavily on
+one set of users. Pavlus seems only to care about having as many people as
+possible understanding a program. This to us seems silly, it is a career for a
+reason: you wouldn't expect the whole public to easily become good lawyers.
+Maybe at some point in the future programming will become more commonplace, but
+we are not there yet. Likewise, the commenters are fully rejecting the idea
+that more people could learn programming, and that that would be a good thing.
+This is too narrow-minded; of course programming languages should be
+understandable. The question is how understandable they should be, but the
+commenters don't even seem interested in that discussion. We would guess that
+part of why they have these blinders on is because they are professionals, they
+know how their languages work, and they don't need anything to change for them.
+But we believe it is very possible that a change for more readability could
+happen without negatively affecting the programmers.
 
 
 [1]: https://www.python.org/dev/peps/pep-0020/
@@ -113,9 +184,27 @@ implementation choices from users?
 
 **Response**
 
-The choice of implementation for a DSL strongly affects its users. If we choose to implement an internal DSL, then users can have an easier time learning the language, because users may already be familiar with the host language. Even if they are not, the host language will have documentation, so it will likely be easier to pick up the DSL than if the DSL was a totally new language. On the other hand, if we implement our DSL as external, there is the advantage that we can choose syntax that makes sense to experts in our chosen domain. If those experts are our users, that will help them.
+The choice of implementation for a DSL strongly affects its users. If we choose
+to implement an internal DSL, then users can have an easier time learning the
+language, because users may already be familiar with the host language. Even if
+they are not, the host language will have documentation, so it will likely be
+easier to pick up the DSL than if the DSL was a totally new language. On the
+other hand, if we implement our DSL as external, there is the advantage that we
+can choose syntax that makes sense to experts in our chosen domain. If those
+experts are our users, that will help them.
 
-In some cases it is not possible to hide implementation choices from users. For example, users will be able to tell whether our language is internal or external. However, whenever we can, it would be advisable to hide as much as possible. For example, if our language has a `sort` keyword, we do not need to tell the user more than how fast it is guaranteed to run. This is a principle advocated in [Bloch, 2006], as applied to APIs. We believe the same applies to DSLs. The main motivation here is that if we ever need to change implementation details, then there won't be false information lying around that we would have to track down and update, which would lead to confusion. We suspect that it depends on the context, but there is definitely a balance to be struck between leaving yourself wiggle room, and not annoying the users with too many black boxes.
+In some cases it is not possible to hide implementation choices from users. For
+example, users will be able to tell whether our language is internal or
+external. However, whenever we can, it would be advisable to hide as much as
+possible. For example, if our language has a `sort` keyword, we do not need to
+tell the user more than how fast it is guaranteed to run. This is a principle
+advocated in [Bloch, 2006], as applied to APIs. We believe the same applies to
+DSLs. The main motivation here is that if we ever need to change implementation
+details, then there won't be false information lying around that we would have
+to track down and update, which would lead to confusion. We suspect that it
+depends on the context, but there is definitely a balance to be struck between
+leaving yourself wiggle room, and not annoying the users with too many black
+boxes.
 
 ---
 
@@ -159,6 +248,11 @@ Briefly describe how you split up the work for this assignment.
 
 **Response**
 
-First, we did the readings separately. Then, we got together and talked about each of the questions in turn. We came up with parts of the texts we wanted to cite, and drafted a few points for each question together. After that, we agreed on a split for writing up questions and wrote up 3.5 answers each individually. Finally, we got back together, talked again about a few issues, and now we're done!
+First, we did the readings separately. Then, we got together and talked about
+each of the questions in turn. We came up with parts of the texts we wanted to
+cite, and drafted a few points for each question together. After that, we
+agreed on a split for writing up questions and wrote up 3.5 answers each
+individually. Finally, we got back together, talked again about a few issues,
+and now we're done!
 
 ---
