@@ -75,22 +75,9 @@ In what way is an API a language?
 
 **Response**
 
-ALEX 
-
 Fowler states that the saying in old Bell labs was "library design is language design." [Fowler] As we discussed in class, languages could be defined as instructions that are computed. With that simple definition, an API is a specified set of instructions that we know can be computed but don't necessarily know how they are computed. The goal of a language is for us to be able to complete a task in a simpler way than we could without that language. Depending on the intended use of the API, that is what it can do. As we have discussed earlier, Poole talked about how Java was initially designed to be as concise as possible to fulfill all the needs of the user. Bloch said that "every facet of an API should be as small as possible, but no smaller." These agree in that both should be able to accomplish what the user would want to use the language or API for but not more, which would frustrate or confuse the user. 
 
 Bloch states that APIs should "obey the principle of least astonishment." [Bloch, 2006] Just like languages, if a user expects the API to do something, the API should most likely do that thing. This follows languages in being designed how users are used to certain things being represented and used to certain operations existing. So like languages, APIs should revolve around how a user would expect to use it. 
-
-
-
-
-API reading:
-- Good programs are modular, and intermodular boundaries define APIs. Good modules get reused.
-
-as discussed in class:
-- languages are instructions that are computed
-- APIs are instruction that don't allow for addition logical sugar between them, has to be done in another language
-
 
 ---
 
