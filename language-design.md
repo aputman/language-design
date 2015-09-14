@@ -116,16 +116,17 @@ sympathize more with the tenor of the article or the tenor of the majority of
 the commenters?
 
 **Response**
-BEN
 
-While we agree with the argument of the article, the actual specifics to bolster his claim are not convincing.
-As the commenters point out, he is only considering new users to a language vs experienced developers. 
+Pavlus is arguing that programming languages should be designed to be easier for the average person to understand and learn. While we agree with this general argument of the article, the actual specifics Pavlus uses to bolster his claim are not convincing. The commenters point out that Pavlus is emphasizing the difficulty of learning a language for those new to the language, but they argue that a programming language should be designed more with its users in mind, in that ease of use should be the concern, not ease of learning.
 
-Both the author and the commentors fail to consider the users that are not under the scope they are arguing for. 
-There is definitely a middle ground that is being sought out but both groups fail to even attempt to find it. 
+We mostly agree with the commenters. The language Pavlus seems to be after is a language for teaching programming, not one for actually programming. The reason that his "hieroglyphic" programming languages stick around is that they are useful. The commenters are right that there is a trade-off between a language being readable by the general public and how efficient and powerful a language is. We resent Pavlus for implying that such a trade-off need not be there, and that contributors to programming language design don't care enough to make their languages usable. Does he think that nobody has thought of this before?
 
-The comments also highlight a heavily perceived social difference between those who know how to code and those 
-trying to learn. We do sympathize that this could be a problem in the persuit of finding the middle ground. 
+However, we do not totally disagree with Pavlus. We actually agree with his general arguments, just not with how he defends them. We believe that it would be possible for languages to be more accessible to the general public. For example, Python has had great success with being a language designed with a guiding principle of "Readability counts," as well as  "Beautiful is better than ugly" ([PEP 20 -- The Zen of Python][1]). It is not too hard to imagine a language that goes a bit farther than Python while still being very powerful and  usable.
+
+We also note that both Pavlus and the commenters are focusing too heavily on one set of users. Pavlus seems only to care about having as many people as possible understanding a program. This to us seems silly, it is a career for a reason: you wouldn't expect the whole public to easily become good lawyers. Maybe at some point in the future programming will become more commonplace, but we are not there yet. Likewise, the commenters are fully rejecting the idea that more people could learn programming, and that that would be a good thing. This is too narrow-minded; of course programming languages should be understandable. The question is how understandable they should be, but the commenters don't even seem interested in that discussion. We would guess that part of why they have these blinders on is because they are professionals, they know how their languages work, and they don't need anything to change for them. But we believe it is very possible that a change for more readability could happen without negatively affecting the programmers.
+
+
+[1]: https://www.python.org/dev/peps/pep-0020/
 
 ---
 
