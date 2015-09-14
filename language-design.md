@@ -17,24 +17,13 @@ For each quote, describe what it was about the quote that led you pick it.
 
 **Response**
 
-Quote 1: "The broad computer science academic community has not paid a tremendous amount of attention to programming language usability" [Pavlus, 2012].
-BEN
+Quote 1: "Why shouldn’t those 'interfaces' be as humanely designed as the ones we tap and swipe?" [Pavlus, 2012].
 
-What is the author's and researcher proposed solution?
-- if it so easy to pay attention to usability, why hasn't the perfect language been developed?
-- question title?
-
-What defines usability and how can you maximize usability for all different end users?
-- While perl might be too hard for beginners, experience developers with the language can do quite a lot, which the perl community probably catered to
+Here Pavlus asks why programming languages' interfaces are not as "humanely designed" as software's graphical interfaces are. This quote stood out to us because Pavlus is trying to make a point, but actually ends up asking a question that is very easy to answer! One answer is that in general, software (programming languages included) is designed towards its users. The software Pavlus is referring to is probably targeted at a much broader audience, so it needs to be easier. Also, we take issue with Pavlus implying that programming is comparable to tapping and swiping. Is Pavlus claiming that programming should be as easy as Angry Birds? I doubt that would be a productive language.
 
 Quote 2: "Public APIs, like diamonds, are forever" [Bloch, 2006].
-BEN
 
-Different than what we are used to
-- Need to start questioning backwards compatability with language updates
-
-Experience with user vs developer time development needs
-- Getting something out for the need of getting it out vs being ready to send it out. 
+This is not a feeling that we are used to. I (Ben) have never written anything like this, anything that would be public-facing and would cause an outcry if changed. It is interesting to think how choices made at the outset could affect your language fifteen years later, possibly. In fact, every future time you change something, you'd have to ensure backwards compatibility. It really emphasizes how thoughtful one needs to be in designing a language or an API. It is in general much better to wait until you are ready than to send out a rushed product.
 
 Quote 3: "If the design of the Java programming language as it is now had been put forth three years ago, it would have failed — of that I am sure" [Steele, 1998].
 
@@ -135,7 +124,9 @@ internal DSL) affect the user experience? Can or should we always hide our
 implementation choices from users?
 
 **Response**
-BEN
+
+The choice of implementation for a DSL strongly affects its userse. If we choose to implement an internal DSL, then users can have an easier time learning the language, because users may already be familiar with the host language. Even if they are not, the host language will have documentation, so it will likely be easier to pick up the DSL than if the DSL was a totally new language. On the other hand, if we implement our DSL as external, there is the advantage that we can choose syntax that makes sense to experts in our chosen domain. If those experts are our users, that will help them.
+
 
 Fowler Reading
 
