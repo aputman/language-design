@@ -39,9 +39,12 @@ Experience with user vs developer time development needs
 Quote 3: "If the design of the Java programming language as it is now had been put forth three years ago, it would have failed — of that I am sure" [Steele, 1998].
 ALEX 
 
-Relate to current day
-- Written 17 years ago, Java being phased out as introductory language in favor of lighter alternatives
-- People new to programming choose languages based on simplicity vs. research/need?
+This quote is interesting because although this was written 17 years ago, we can see this happening with languages being chosen for teaching 
+introductory programming. For most of the late 2005-2010, Java was the main language that was used to teach programming. This can be seen from 
+College board choosing to move from C++ to Java for the Computer Science AP class. Now that Java has had a lot added to it over the years, it
+is the old, hard to enter language. Smaller languages like Python and Ruby have started to take the place as introductory languages 
+mostly because of their simplicity. This should make us think about how additions, while great for existing users of the DSL, might harm 
+acquiring new users. 
 
 ---
 
@@ -68,19 +71,19 @@ How would you know a well-designed language? What are the symptoms? How would
 you know a poorly designed language? What are the symptoms?
 
 **Response**
-ALEX
 
-Steele 
-- WELL: must have tools to easily extend or grow the language and allow users to do the same
-- POOR: no way for the community to give feedback or help, basically if plans are too strict
+	There are many ways to define a well-designed language. We believe that language simplicity, understandability and the ability for users to add their 
+own parts encompass a well-designed language. 
 
-Why are Languages design better?
-- WELL: easily understandable syntax, low barrier to entry
-- POOR: reversed 
+	I think it would be best to start by using examples from Steele. From a quote we used in question one, Steele explains "if the design of the Java 
+programming language as it is now had been put forth three years ago, it would have failed — of that I am sure" [Steele, 1998]. 
+So it seems like, at least intial, simplicity is a key to good language design. Pavlus states that "He said that their usability testing showed that simply finding natural-language replacements for some of the more abstruse syntax went a long way." [Pavlus, 2012] He agrees with Steele in that he argues that language with simpler syntax, or syntax that the user is more familiar with, allows for new users of the language to accomplish tasks in much less time. This also argues for both undestandability and simplicity. Bloch also agrees with understandability by saying that well written APIs should "read like prose." [Bloch, 2006] Steele also argues that a language shouldn't do more than it has to.He says that "what we need is more like a shopping mall, where there are not quite as many choices but most of the goods are well designed and sellers stand up and back what they sell." [Steele, 1998] So a language should allow for flexibility but not do to much for the user. 
 
-How to design a good API
-- WELL: Make every aspect of the API well defined to the use-cases and known to the user. Reads like prose (quote)
-- POOR: API doesn't do what user thinks it will do, allows user to do something that the API isn't intended for
+We both agreed that badly designed languages boil down to being hard to understand and hard to implement thoughts from our head. This can be either understanding plain syntax or understanding how parts of the language work to having language design that requires work arounds to do tasks that our mind would find simple. 
+
+Pavlus quoted from a researcher that "Perl users were unable to write programs more accurately than those using a language designed by chance." [Pavlus, 2012] This stemmed from, they said, hard to understand syntax. If it is hard for a user to understand the syntax, using that syntax to make difficult programs is going to be even harder. Since languages are designed to make writing programs easier, this is probably a symptom of bad-language design. Blach agrees by stating a requirement for a good API is "obey the principle of least astonishment." [Blach, 2006] By having the language do what the user thinks it should do with a specific call, less errors and rewriting will have to occur for the user to get to the right syntax. 
+
+
 
 ---
  
