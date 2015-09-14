@@ -52,15 +52,10 @@ acquiring new users.
 How do the themes of _Growing a Language_ relate to the lab we did this week?
 
 **Response**
-BEN
 
-Themes:
-- Fluidity or languages extending thought vs conforming thought to the language. 
-	- Language expansion as the thoughts for the domain expand. 
+Steele states his main theme on page 5: "I should not design a small language, and I should not design a large one. I need to design a language that can grow. I need to plan ways in which it might grow — but I need, too, to leave some choices so that other persons can make those choices at a later time." His point is that programming languages should not try to implement everything, but rather should allow the users to implement anything. He goes on to say that languages can and should expand, but that this rate must be controlled. As an example, he claims that Java in its state three years after its creation would never have been accepted as a programming language; it had to have those three intervening years to grow.
 
-- In the lab we had a process that someone in the domain might want to achieve. 
-- We then designed the language to best suit that process, basically extending it
-
+This theme plays a part in our lab from last week. Our goal in the lab was to create an extension for Python that would allow users to easily manipulate sounds. There are two things to note here. One, Python does not already have what we are looking for (there are some libraries out there that do this, but they were not part of Python's original design). Two, we were able to with little effort implement the desired functionality in Python. This fits nicely into Steele's description of the size of a language: Python was not too big, because its original specification did not contain this; and Python was not too small, because it was rather easy to implement the desired functions with basic Python functionality. Here we must say that Steele does not say that languages have to remain small. Python has grown to include libraries that already do what we implemented, but this does not contradict Steele because Steele expects languages to grow, just not for all that growth to be part of the original design.
 
 ---
 
