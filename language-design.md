@@ -125,29 +125,9 @@ implementation choices from users?
 
 **Response**
 
-The choice of implementation for a DSL strongly affects its userse. If we choose to implement an internal DSL, then users can have an easier time learning the language, because users may already be familiar with the host language. Even if they are not, the host language will have documentation, so it will likely be easier to pick up the DSL than if the DSL was a totally new language. On the other hand, if we implement our DSL as external, there is the advantage that we can choose syntax that makes sense to experts in our chosen domain. If those experts are our users, that will help them.
+The choice of implementation for a DSL strongly affects its users. If we choose to implement an internal DSL, then users can have an easier time learning the language, because users may already be familiar with the host language. Even if they are not, the host language will have documentation, so it will likely be easier to pick up the DSL than if the DSL was a totally new language. On the other hand, if we implement our DSL as external, there is the advantage that we can choose syntax that makes sense to experts in our chosen domain. If those experts are our users, that will help them.
 
-
-Fowler Reading
-
-last reading - last paragraph of 328
-internal
-
-external - 330
-
-2.5.2
-
-
-Easier to understand syntax in internal DSL but might be harder to destinguish what 
-you are supposed to do. 
-
-With a restricted syntax, it might be that its impossible to do anything but what
-you are supposed to do.
-
-Can't if its a syntax decision, its easier to hide if its just a semantics decision vs syntax decision
-
-how to make API?
-- keep implementation details away from users, overspecification is bad
+In some cases it is not possible to hide implementation choices from users. For example, users will be able to tell whether our language is internal or external. However, whenever we can, it would be advisable to hide as much as possible. For example, if our language has a `sort` keyword, we do not need to tell the user more than how fast it is guaranteed to run. This is a principle advocated in [Bloch, 2006], as applied to APIs. We believe the same applies to DSLs. The main motivation here is that if we ever need to change implementation details, then there won't be false information lying around that we would have to track down and update, which would lead to confusion. We suspect that it depends on the context, but there is definitely a balance to be struck between leaving yourself wiggle room, and not annoying the users with too many black boxes.
 
 ---
 
@@ -191,6 +171,6 @@ Briefly describe how you split up the work for this assignment.
 
 **Response**
 
-
+First, we did the readings separately. Then, we got together and talked about each of the questions in turn. We came up with parts of the texts we wanted to cite, and drafted a few points for each question together. After that, we agreed on a split for writing up questions and wrote up 3.5 answers each individually. Finally, we got back together, talked again about a few issues, and now we're done!
 
 ---
