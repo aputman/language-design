@@ -93,7 +93,10 @@ In what way is an API a language?
 
 ALEX 
 
-Outside Reading: Fowler:
+Fowler states that the saying in old Bell labs was "library design is language design." [Fowler] As we discussed in class languages could be defined as instructions that are computed. With that simple definition, an API is a specified set of instructions that we know can be computed but don't necessarily know how they are computed. The goal of a language is for us to be able to complete a task in a simpler way than we could without that language. Depending on the intended use of the API, that is what it can do. Blach states that APIs should "obey the principle of least astonishment." [Blach, 2006] Just like languages, if a user expects the API to do something, the API should most likely do that thing. This follows languages in being designed how users are used to certain things being represented and used to certain operations existing. So like languages, APIs should revolve around how a user would expect to use
+it. 
+
+
 
 
 API reading:
@@ -189,19 +192,10 @@ you choose to include natural language in the design of a DSL? If so, how might
 you do so? If not, why not?
 
 **Response**
-ALEX
 
-No, Pavlus is basically talking about being introduced to programming and Cooke is talking
-about the problems that arise when you try to do more complicated things. 
+No, we don't believe that the two experients disagree with each other. Pavlus is not arguing for a "natural language" but more for a language that is easier to understand by using words from our current language. This is done by changing operators and key words from symbols into words or symbols that are common to our everyday language, like changing "for(int i = 0; i < 10; i++)" to "integer i = 0 \break repeat 10 times \break i = i + 1" [Pavlus, 2012]. Both examples have the exact same functionality, but change the assumed knowledge of for loop construction to words like "repeat" and "times." 
 
-Depends on the user and on the domain. If the language of the domain is very defined and 
-specific, then there wouldn't be must ambiguity in how people of that domain would interpret 
-it.
-- Instead of making a natural language language, just change operators or keywords to fit the language 
-of that domain to make it more readable. 
-
-If there is ambiguity we would not because if a line could be interepreted by a human in several different ways
-and only in one way by a computer, not everyone will get what they expect. 
+We agree with our previous argument that natural language, if implemented at all, should be implemented in a superficial way. That means that it is only replacing singular functions or key words and not trying to simplify the language. We think the inclusion of natural language into the design of a DSL is dependent on both the intended user and the domain that the DSL covers. If the language of the domain is very well defined and widely used, it would make sense to include parts of it to make understanding of the DSL easier. If the intended user of the language is use to languages that don't include natural language, it would make sense to leave it out of the DSL design. Basically our idea for when not to use it is to think of any ambiguity adding certain natural language into your DSL would cause when people would try to write or understand it. If there is any, don't include that natural language because the ambiguity will cause more harm than good. If there isn't any, then if inclusion of the natural language makes understanding the DSL code easier, include it. 
 
 ---
 
